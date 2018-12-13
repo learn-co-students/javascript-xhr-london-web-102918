@@ -14,7 +14,7 @@ function showRepositories(event, data) {
     document.getElementById("repositories").innerHTML = repoList;
 }
 
-function getRespositories() {
+function getRepositories() {
     const req = new XMLHttpRequest();
     
     req.addEventListener("load", showRepositories);
